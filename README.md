@@ -6,3 +6,11 @@ React・Reduxを利用したサイドメニューのSPAサンプル
 ```
 yarn install
 ```
+
+## Feature
+- React
+- Redux
+- TypeScript
+- Material-UI
+- TypeScript FSA
+- Ducks
