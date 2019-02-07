@@ -7,7 +7,9 @@ import Contents from './components/Contents';
 import Header from './containers/Header';
 import Sidebar from './containers/Sidebar';
 
-const history = createHistory();
+const history = createHistory({
+  basename: process.env.PUBLIC_URL
+});
 
 interface IProps extends WithStyles<typeof styles> { }
 
