@@ -13,6 +13,7 @@ yarn install
 - TypeScript
 - Material-UI
 - TypeScript FSA
+- Redux Saga
 - Ducks
 
 ## Demo
