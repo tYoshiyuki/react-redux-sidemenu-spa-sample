@@ -7,6 +7,12 @@ React・Reduxを利用したサイドメニューのSPAサンプル
 yarn install
 ```
 
+## Usage
+
+```
+yarn start
+```
+
 ## Feature
 - React
 - Redux
