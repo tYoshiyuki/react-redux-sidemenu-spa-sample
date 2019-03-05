@@ -1,6 +1,7 @@
 import { createStyles, Theme, WithStyles, withStyles } from '@material-ui/core';
 import * as React from 'react';
 import { Route } from 'react-router';
+import Users from 'src/containers/Users';
 
 interface IProp extends WithStyles<typeof styles> { }
 
@@ -23,7 +24,7 @@ class Contents extends React.Component<IProp> {
             <main className={classes.content}>
                 <div className={classes.toolbar} />
                 <Route exact={true} path="/" component={Init} />                    
-                <Route path="/menu01" component={Menu01} />
+                <Route path="/users" component={Users} />
                 <Route path="/menu02" component={Menu02} />
                 <Route path="/menu03" component={Menu03} />                                        
             </main>
@@ -33,10 +34,6 @@ class Contents extends React.Component<IProp> {
 
 const Init: React.FC<{}> = props => (
     <div>This is main Contents!!</div>
-);
-
-const Menu01: React.FC<{}> = props => (
-    <div>This is menu01 Contents</div>
 );
 
 const Menu02: React.FC<{}> = props => (

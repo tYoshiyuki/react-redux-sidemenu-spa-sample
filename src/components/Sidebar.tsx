@@ -62,7 +62,7 @@ class Sideber extends React.Component<IProps> {
                 })}} open={false}>
                 <div className={classes.toolbar} />
                 <List>
-                    {[{ text: 'Menu01', icon: <BookmarkIcon />},
+                    {[{ text: 'Users', icon: <BookmarkIcon />},
                         { text: 'Menu02', icon: <FavoriteIcon />},
                         { text: 'Menu03', icon: <SearchIcon />},
                     ].map(obj => 
