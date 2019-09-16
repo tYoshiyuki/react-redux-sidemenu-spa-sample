@@ -23,5 +23,3 @@ yarn start
 - Ducks
 - RANDOM USER GENERATOR (https://randomuser.me/)
 
-## Demo
-[Demo Site](https://tyoshiyuki.github.io/react-redux-sidemenu-spa-sample/)
